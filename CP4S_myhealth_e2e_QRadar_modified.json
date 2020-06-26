@@ -1,335 +1,334 @@
 {
-    "type": "bundle",
-    "id": "bundle--abe952aa-b943-4a9d-98d4-c6c073b4e8dc",
-    "objects": [
-        {
-            "type": "identity",
-            "id": "identity--f165428c-7b6a-4d77-89cc-33e66a10c541",
-            "name": "QRadar",
-            "identity_class": "events"
-        },
-        {
-            "id": "observed-data--439c662d-5ddd-453f-afe4-1d00faf87531",
-            "type": "observed-data",
-            "created_by_ref": "identity--f165428c-7b6a-4d77-89cc-33e66a10c541",
-            "created": "2020-06-26T00:00:00.000Z",
-            "modified": "2020-06-26T00:00:00.000Z",
-            "objects": {
-                "0": {
-                    "type": "ipv4-addr",
-                    "value": "10.10.100.21",
-                    "resolves_to_refs": "2"
-                },
-                "1": {
-                    "type": "network-traffic",
-                    "src_ref": "0",
-                    "src_port": 0,
-                    "dst_ref": "3",
-                    "dst_port": 0,
-                    "protocols": [
-                        "reserved"
-                    ]
-                },
-                "2": {
-                    "type": "mac-addr",
-                    "value": "00:00:00:00:00:00"
-                },
-                "3": {
-                    "type": "ipv4-addr",
-                    "value": "10.10.100.21",
-                    "resolves_to_refs": "4"
-                },
-                "4": {
-                    "type": "mac-addr",
-                    "value": "00:00:00:00:00:00"
-                },
-                "5": {
-                    "type": "user-account",
-                    "user_id": "myhealth-ep21\\adam"
-                },
-                "6": {
-                    "type": "artifact",
-                    "payload_bin": "PDE4Mj5PY3QgMTQgMTk6NTc6NTkgMTkyLjE2OC4wLjkwIDwxMz5PY3QgMDMgMTQ6NTM6MzUgV2lu\nU2VydmVyIEFnZW50RGV2aWNlPVdpbmRvd3NMb2cJQWdlbnRMb2dGaWxlPU1pY3Jvc29mdC1XaW5k\nb3dzLVN5c21vbi9PcGVyYXRpb25hbAlQbHVnaW5WZXJzaW9uPTcuMi44LjE0NQlTb3VyY2U9TWlj\ncm9zb2Z0LVdpbmRvd3MtU3lzbW9uCUNvbXB1dGVyPVdpblNlcnZlcglPcmlnaW5hdGluZ0NvbXB1\ndGVyPVdpblNlcnZlcglVc2VyPVNZU1RFTQlEb21haW49TlQgQVVUSE9SSVRZCUV2ZW50SUQ9MQlF\ndmVudElEQ29kZT0xCUV2ZW50VHlwZT00CUV2ZW50Q2F0ZWdvcnk9MQlSZWNvcmROdW1iZXI9OTQy\nMTQJVGltZUdlbmVyYXRlZD0xNTcwMTEwODEzCVRpbWVXcml0dGVuPTE1NzAxMTA4MTMJTGV2ZWw9\nSW5mb3JtYXRpb25hbAlLZXl3b3Jkcz0weDgwMDAwMDAwMDAwMDAwMDAJVGFzaz1TeXNtb25UYXNr\nLVNZU01PTl9DUkVBVEVfUFJPQ0VTUwlPcGNvZGU9SW5mbwlNZXNzYWdlPVByb2Nlc3MgQ3JlYXRl\nOiBSdWxlTmFtZTogIFV0Y1RpbWU6IDIwMTktMTAtMDMgMTM6NTM6MzMuNTM4IFByb2Nlc3NHdWlk\nOiB7MUMyRDNGNTQtRkQ1RC01RDk1LTAwMDAtMDAxMEEwMkUwQzAwfSBQcm9jZXNzSWQ6IDc1NyBJ\nbWFnZTogQzpcUHJvZ3JhbSBGaWxlc1xBdGxhc3NpYW5cQ29uZmx1ZW5jZVxjNjQuZXhlIENvbW1h\nbmRMaW5lOiBjNjQuZXhlIGY2NC5kYXRhICI5ODM5RDdGMUEwIC1tIiBDdXJyZW50RGlyZWN0b3J5\nOiBDOlxXaW5kb3dzXCBVc2VyOiBXaW5TZXJ2ZXJcYWRtaW4gTG9nb25HdWlkOiB7MUMyRDNGNTQt\nRjczNS01RDk1LTAwMDAtMDAyMDk0NkQwNDAwfSBMb2dvbklkOiAweDQ2ZDk0IFRlcm1pbmFsU2Vz\nc2lvbklkOiAxIEludGVncml0eUxldmVsOiBIaWdoIEhhc2hlczogU0hBMT01YmY2Yzk4YTUyZTgw\nODI0ZDFhMjM0YmQ1ZTY3M2VkYjc1YzdkZGE5LE1ENT04NDZjZGI5MjE4NDFhYzY3MWM4NjM1MGQ0\nOTRhYmY5YyxTSEEyNTY9ZGM1MmJkZjVlM2Y3MWZiOWFiM2IxNzMwZDQ0NTI4N2QxNmQzYTNjOA=="
-                },
-                "7": {
-                    "type": "file",
-                    "hashes": {
-                        "SHA-1": "72e52b870fb670bc7d3294afb51d4d3756251f2e",
-                        "MD5": "e861a858d56a2f38468dc82d9e6197cd",
-                        "SHA-256": "94faa76502bb4342ed7cc3207b3158027807a01575436e2b683d4816842ed65d"
-                    },
-                    "name": "IMG159131.jpg.js.zip",
-                    "parent_directory_ref": "9"
-                },
-                "8": {
-                    "type": "file",
-                    "name": "IMG159131.jpg.js.zip",
-                    "binary_ref": "7",
-                    "command_line": "",
-                    "pid": 757
-                },
-                "9": {
-                    "type": "directory",
-                    "path": "C:\\users\\adam\\Downloads\\IMG159131.jpg.js.zip"
-                }
-            },
-            "x_com_ibm_ariel": {
-                "devicetype": 12,
-                "qid_name": "File Create",
-                "qid": 5001828,
-                "category_name": "Create Activity Succeeded",
-                "category_id": 19012,
-                "log_source_id": 1912,
-                "log_source_name": "Sysmon @ 192.168.0.8",
-                "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Jun 26 00:00:00 192.168.0.8 <13>Jun 26 00:00:00 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2020-01-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
-                "magnitude": 2
-            },
-            "first_observed": "2020-06-26T00:00:00.000Z",
-            "last_observed": "2020-06-26T00:00:00.000Z",
-            "number_observed": 1
-        },
-        {
-            "id": "observed-data--ccefc459-9b51-4358-9704-614e0a99dea9",
-            "type": "observed-data",
-            "created_by_ref": "identity--f165428c-7b6a-4d77-89cc-33e66a10c541",
-            "created": "2020-06-26T00:00:00.000Z",
-            "modified": "2020-06-26T00:00:00.000Z",
-            "objects": {
-                "0": {
-                    "type": "ipv4-addr",
-                    "value": "10.10.100.21",
-                    "resolves_to_refs": "2"
-                },
-                "1": {
-                    "type": "network-traffic",
-                    "src_ref": "0",
-                    "src_port": 0,
-                    "dst_ref": "3",
-                    "dst_port": 0,
-                    "protocols": [
-                        "reserved"
-                    ]
-                },
-                "2": {
-                    "type": "mac-addr",
-                    "value": "00:00:00:00:00:00"
-                },
-                "3": {
-                    "type": "ipv4-addr",
-                    "value": "10.10.100.21",
-                    "resolves_to_refs": "4"
-                },
-                "4": {
-                    "type": "mac-addr",
-                    "value": "00:00:00:00:00:00"
-                },
-                "5": {
-                    "type": "user-account",
-                    "user_id": "myhealth-ep21\\adam"
-                },
-                "6": {
-                    "type": "artifact",
-                    "payload_bin": "PDE4Mj5PY3QgMTQgMTk6NTc6NTkgMTkyLjE2OC4wLjkwIDwxMz5PY3QgMDEgMTk6Mjk6MTUgV2lu\nU2VydmVyIEFnZW50RGV2aWNlPVdpbmRvd3NMb2cJQWdlbnRMb2dGaWxlPU1pY3Jvc29mdC1XaW5k\nb3dzLVN5c21vbi9PcGVyYXRpb25hbAlQbHVnaW5WZXJzaW9uPTcuMi44LjE0NQlTb3VyY2U9TWlj\ncm9zb2Z0LVdpbmRvd3MtU3lzbW9uCUNvbXB1dGVyPURFU0tUT1AtSlVCNVAzRglPcmlnaW5hdGlu\nZ0NvbXB1dGVyPURFU0tUT1AtSlVCNVAzRglVc2VyPVNZU1RFTQlEb21haW49TlQgQVVUSE9SSVRZ\nCUV2ZW50SUQ9MwlFdmVudElEQ29kZT0zCUV2ZW50VHlwZT00CUV2ZW50Q2F0ZWdvcnk9MwlSZWNv\ncmROdW1iZXI9NjYwODY3MTEJVGltZUdlbmVyYXRlZD0xNTY5OTU0NTU1CVRpbWVXcml0dGVuPTE1\nNjk5NTQ1NTUJTGV2ZWw9SW5mb3JtYXRpb25hbAlLZXl3b3Jkcz0weDgwMDAwMDAwMDAwMDAwMDAJ\nVGFzaz1TeXNtb25UYXNrLVNZU01PTl9ORVRXT1JLX0NPTk5FQ1QJT3Bjb2RlPUluZm8JTWVzc2Fn\nZT1OZXR3b3JrIGNvbm5lY3Rpb24gZGV0ZWN0ZWQ6IFJ1bGVOYW1lOiBVc2VybW9kZSBVdGNUaW1l\nOiAyMDE5LTEwLTAxIDE4OjI5OjE2LjY4OCBQcm9jZXNzR3VpZDogezBhNDZmYzJmLTlhZjMtNWQ5\nMy0wMDAwLTAwMTAyODM4NjQwN30gUHJvY2Vzc0lkOiA3NTcgSW1hZ2U6IEM6XFByb2dyYW0gRmls\nZXNcQXRsYXNzaWFuXENvbmZsdWVuY2VcYzY0LmV4ZSBVc2VyOiBXaW5TZXJ2ZXJcYWRtaW4gUHJv\ndG9jb2w6IHRjcCBJbml0aWF0ZWQ6IHRydWUgU291cmNlSXNJcHY2OiBmYWxzZSBTb3VyY2VJcDog\nMTkyLjE2OC4wLjggU291cmNlSG9zdG5hbWU6IHdpbnNlcnZlciBTb3VyY2VQb3J0OiA1NDc5MiBT\nb3VyY2VQb3J0TmFtZTogIERlc3RpbmF0aW9uSXNJcHY2OiBmYWxzZSBEZXN0aW5hdGlvbklwOiA2\nNy4yMjkuOTcuMjI5IERlc3RpbmF0aW9uSG9zdG5hbWU6ICBEZXN0aW5hdGlvblBvcnQ6IDQ0MyBE\nZXN0aW5hdGlvblBvcnROYW1lOiBodHRwcw0K"
-                },
-                "7": {
-                    "type": "process",
-                    "name": "winzip.exe",
-                    "binary_ref": "8",
-                    "pid": 757
-                },
-                "8": {
-                    "type": "file",
-                    "name": "c64.exe",
-                    "hashes": {
-                        "UNKNOWN": "File Hash"
-                    },
-                    "parent_directory_ref": "9"
-                },
-                "9": {
-                    "type": "directory",
-                    "path": "C:\\Program Files\\winzip\\winzip.exe"
-                }
-            },
-            "x_com_ibm_ariel": {
-                "devicetype": 12,
-                "qid_name": "process create",
-                "qid": 5001840,
-                "category_name": "Create Activity Succeeded",
-                "category_id": 4012,
-                "log_source_id": 1912,
-                "log_source_name": "Sysmon @ 192.168.0.8",
-                "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Oct 14 19:57:59 192.168.0.8 <13>Oct 01 19:29:15 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=DESKTOP-JUB5P3F\tOriginatingComputer=DESKTOP-JUB5P3F\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=3\tEventIDCode=3\tEventType=4\tEventCategory=3\tRecordNumber=66086711\tTimeGenerated=1569954555\tTimeWritten=1569954555\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_NETWORK_CONNECT\tOpcode=Info\tMessage=Network connection detected: RuleName: Usermode UtcTime: 2020-01-03 18:29:16.688 ProcessGuid: {0a46fc2f-9af3-5d93-0000-001028386407} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe User: WinServer\\admin Protocol: tcp Initiated: true SourceIsIpv6: false SourceIp: 192.168.0.8 SourceHostname: winserver SourcePort: 54792 SourcePortName:  DestinationIsIpv6: false DestinationIp: 67.229.97.229 DestinationHostname:  DestinationPort: 443 DestinationPortName: https\r\n",
-                "magnitude": 3
-            },
-            "first_observed": "2020-06-26T00:00:00.000Z",
-            "last_observed": "2020-06-26T00:00:00.000Z",
-            "number_observed": 1
-        },
-        {
-            "id": "observed-data--e03a0b0d-8388-4cbb-973d-42a88ed8bd6c",
-            "type": "observed-data",
-            "created_by_ref": "identity--f165428c-7b6a-4d77-89cc-33e66a10c541",
-            "created": "2020-06-26T00:00:00.000Z",
-            "modified": "2020-06-26T00:00:00.000Z",
-            "objects": {
-                "0": {
-                    "type": "ipv4-addr",
-                    "value": "10.10.100.21",
-                    "resolves_to_refs": "2"
-                },
-                "1": {
-                    "type": "network-traffic",
-                    "src_ref": "0",
-                    "src_port": 0,
-                    "dst_ref": "3",
-                    "dst_port": 0,
-                    "protocols": [
-                        "reserved"
-                    ]
-                },
-                "2": {
-                    "type": "mac-addr",
-                    "value": "00:00:00:00:00:00"
-                },
-                "3": {
-                    "type": "ipv4-addr",
-                    "value": "10.10.100.21",
-                    "resolves_to_refs": "4"
-                },
-                "4": {
-                    "type": "mac-addr",
-                    "value": "00:00:00:00:00:00"
-                },
-                "5": {
-                    "type": "user-account",
-                    "user_id": "myhealth-ep21\\adam"
-                },
-                "6": {
-                    "type": "artifact",
-                    "payload_bin": "PDE4Mj5PY3QgMTQgMTk6NTg6MDAgMTkyLjE2OC4wLjkwIDwxMz5PY3QgMDMgMTQ6NTM6MzUgV2lu\nU2VydmVyIEFnZW50RGV2aWNlPVdpbmRvd3NMb2cJQWdlbnRMb2dGaWxlPU1pY3Jvc29mdC1XaW5k\nb3dzLVN5c21vbi9PcGVyYXRpb25hbAlQbHVnaW5WZXJzaW9uPTcuMi44LjE0NQlTb3VyY2U9TWlj\ncm9zb2Z0LVdpbmRvd3MtU3lzbW9uCUNvbXB1dGVyPVdpblNlcnZlcglPcmlnaW5hdGluZ0NvbXB1\ndGVyPVdpblNlcnZlcglVc2VyPVNZU1RFTQlEb21haW49TlQgQVVUSE9SSVRZCUV2ZW50SUQ9MQlF\ndmVudElEQ29kZT0xCUV2ZW50VHlwZT00CUV2ZW50Q2F0ZWdvcnk9MQlSZWNvcmROdW1iZXI9OTQy\nMTQJVGltZUdlbmVyYXRlZD0xNTcwMTEwODEzCVRpbWVXcml0dGVuPTE1NzAxMTA4MTMJTGV2ZWw9\nSW5mb3JtYXRpb25hbAlLZXl3b3Jkcz0weDgwMDAwMDAwMDAwMDAwMDAJVGFzaz1TeXNtb25UYXNr\nLVNZU01PTl9DUkVBVEVfUFJPQ0VTUwlPcGNvZGU9SW5mbwlNZXNzYWdlPVByb2Nlc3MgQ3JlYXRl\nOiBSdWxlTmFtZTogIFV0Y1RpbWU6IDIwMTktMTAtMDMgMTM6NTM6MzMuNTM4IFByb2Nlc3NHdWlk\nOiB7MUMyRDNGNTQtRkQ1RC01RDk1LTAwMDAtMDAxMEEwMkUwQzAwfSBQcm9jZXNzSWQ6IDc1NyBJ\nbWFnZTogQzpcUHJvZ3JhbSBGaWxlc1xBdGxhc3NpYW5cQ29uZmx1ZW5jZVxjNjQuZXhlIENvbW1h\nbmRMaW5lOiBjNjQuZXhlIGY2NC5kYXRhICI5ODM5RDdGMUEwIC1tIiBDdXJyZW50RGlyZWN0b3J5\nOiBDOlxXaW5kb3dzXCBVc2VyOiBXaW5TZXJ2ZXJcYWRtaW4gTG9nb25HdWlkOiB7MUMyRDNGNTQt\nRjczNS01RDk1LTAwMDAtMDAyMDk0NkQwNDAwfSBMb2dvbklkOiAweDQ2ZDk0IFRlcm1pbmFsU2Vz\nc2lvbklkOiAxIEludGVncml0eUxldmVsOiBIaWdoIEhhc2hlczogU0hBMT01YmY2Yzk4YTUyZTgw\nODI0ZDFhMjM0YmQ1ZTY3M2VkYjc1YzdkZGE5LE1ENT04NDZjZGI5MjE4NDFhYzY3MWM4NjM1MGQ0\nOTRhYmY5YyxTSEEyNTY9ZGM1MmJkZjVlM2Y3MWZiOWFiM2IxNzMwZDQ0NTI4N2QxNmQzYTNjOA=="
-                },
-                "7": {
-                    "type": "file",
-                    "hashes": {
-                        "SHA-1": "591ffe54bac2c50af61737a28749ff8435168182",
-                        "MD5": "c9ec0d9ff44f445ce5614cc87398b38d",
-                        "SHA-256": "05af0cf40590aef24b28fa04c6b4998b7ab3b7f26e60c507adb84f3d837778f2"
-                    },
-                    "name": "img05960602020-jpg.scr",
-                    "parent_directory_ref": "9"
-                },
-                "8": {
-                    "type": "File",
-                    "name": "img05960602020-jpg.scr",
-                    "binary_ref": "7",
-                    "command_line": "",
-                    "pid": 757
-                },
-                "9": {
-                    "type": "directory",
-                    "path": "C:\\users\\adam\\desktop\\img05960602020-jpg.scr"
-                }
-            },
-            "x_com_ibm_ariel": {
-                "devicetype": 12,
-                "qid_name": "File Create",
-                "qid": 5001828,
-                "category_name": "Create Activity Succeeded",
-                "category_id": 19012,
-                "log_source_id": 1912,
-                "log_source_name": "Sysmon @ 192.168.0.8",
-                "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Jun 26 00:00:00 192.168.0.8 <13>Jun 26 00:00:00 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2020-01-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
-                "magnitude": 2
-            },
-            "first_observed": "2020-06-26T00:00:00.000Z",
-            "last_observed": "2020-06-26T00:00:00.000Z",
-            "number_observed": 1
-        },
-        {
-            "id": "observed-data--630bf095-f8f7-4431-978e-ab0ab7d1000e",
-            "type": "observed-data",
-            "created_by_ref": "identity--f165428c-7b6a-4d77-89cc-33e66a10c541",
-            "created": "2020-06-26T00:00:00.000Z",
-            "modified": "2020-06-26T00:00:00.000Z",
-            "objects": {
-                "0": {
-                    "type": "ipv4-addr",
-                    "value": "10.10.100.21",
-                    "resolves_to_refs": "2"
-                },
-                "1": {
-                    "type": "network-traffic",
-                    "src_ref": "0",
-                    "src_port": 0,
-                    "dst_ref": "3",
-                    "dst_port": 0,
-                    "protocols": [
-                        "reserved"
-                    ]
-                },
-                "2": {
-                    "type": "mac-addr",
-                    "value": "00:00:00:00:00:00"
-                },
-                "3": {
-                    "type": "ipv4-addr",
-                    "value": "10.10.100.21",
-                    "resolves_to_refs": "4"
-                },
-                "4": {
-                    "type": "mac-addr",
-                    "value": "00:00:00:00:00:00"
-                },
-                "5": {
-                    "type": "user-account",
-                    "user_id": "myhealth-ep21\\adam"
-                },
-                "6": {
-                    "type": "artifact",
-                    "payload_bin": "PDE4Mj5PY3QgMTQgMTk6NTg6MDAgMTkyLjE2OC4wLjkwIDwxMz5PY3QgMDMgMTQ6NTM6MzUgV2lu\nU2VydmVyIEFnZW50RGV2aWNlPVdpbmRvd3NMb2cJQWdlbnRMb2dGaWxlPU1pY3Jvc29mdC1XaW5k\nb3dzLVN5c21vbi9PcGVyYXRpb25hbAlQbHVnaW5WZXJzaW9uPTcuMi44LjE0NQlTb3VyY2U9TWlj\ncm9zb2Z0LVdpbmRvd3MtU3lzbW9uCUNvbXB1dGVyPVdpblNlcnZlcglPcmlnaW5hdGluZ0NvbXB1\ndGVyPVdpblNlcnZlcglVc2VyPVNZU1RFTQlEb21haW49TlQgQVVUSE9SSVRZCUV2ZW50SUQ9MQlF\ndmVudElEQ29kZT0xCUV2ZW50VHlwZT00CUV2ZW50Q2F0ZWdvcnk9MQlSZWNvcmROdW1iZXI9OTQy\nMTQJVGltZUdlbmVyYXRlZD0xNTcwMTEwODEzCVRpbWVXcml0dGVuPTE1NzAxMTA4MTMJTGV2ZWw9\nSW5mb3JtYXRpb25hbAlLZXl3b3Jkcz0weDgwMDAwMDAwMDAwMDAwMDAJVGFzaz1TeXNtb25UYXNr\nLVNZU01PTl9DUkVBVEVfUFJPQ0VTUwlPcGNvZGU9SW5mbwlNZXNzYWdlPVByb2Nlc3MgQ3JlYXRl\nOiBSdWxlTmFtZTogIFV0Y1RpbWU6IDIwMTktMTAtMDMgMTM6NTM6MzMuNTM4IFByb2Nlc3NHdWlk\nOiB7MUMyRDNGNTQtRkQ1RC01RDk1LTAwMDAtMDAxMEEwMkUwQzAwfSBQcm9jZXNzSWQ6IDc1NyBJ\nbWFnZTogQzpcUHJvZ3JhbSBGaWxlc1xBdGxhc3NpYW5cQ29uZmx1ZW5jZVxjNjQuZXhlIENvbW1h\nbmRMaW5lOiBjNjQuZXhlIGY2NC5kYXRhICI5ODM5RDdGMUEwIC1tIiBDdXJyZW50RGlyZWN0b3J5\nOiBDOlxXaW5kb3dzXCBVc2VyOiBXaW5TZXJ2ZXJcYWRtaW4gTG9nb25HdWlkOiB7MUMyRDNGNTQt\nRjczNS01RDk1LTAwMDAtMDAyMDk0NkQwNDAwfSBMb2dvbklkOiAweDQ2ZDk0IFRlcm1pbmFsU2Vz\nc2lvbklkOiAxIEludGVncml0eUxldmVsOiBIaWdoIEhhc2hlczogU0hBMT01YmY2Yzk4YTUyZTgw\nODI0ZDFhMjM0YmQ1ZTY3M2VkYjc1YzdkZGE5LE1ENT04NDZjZGI5MjE4NDFhYzY3MWM4NjM1MGQ0\nOTRhYmY5YyxTSEEyNTY9ZGM1MmJkZjVlM2Y3MWZiOWFiM2IxNzMwZDQ0NTI4N2QxNmQzYTNjOA=="
-                },
-                "7": {
-                    "type": "file",
-                    "hashes": {
-                        "SHA-1": "591ffe54bac2c50af61737a28749ff8435168182",
-                        "MD5": "c9ec0d9ff44f445ce5614cc87398b38d",
-                        "SHA-256": "05af0cf40590aef24b28fa04c6b4998b7ab3b7f26e60c507adb84f3d837778f2"
-                    },
-                    "name": "img05960602020-jpg.scr",
-                    "parent_directory_ref": "9"
-                },
-                "8": {
-                    "type": "process",
-                    "name": "img05960602020-jpg.scr",
-                    "binary_ref": "7",
-                    "command_line": "img05960602020-jpg.scr f64.data \"9839D7F1A0 -m\"",
-                    "pid": 757
-                },
-                "9": {
-                    "type": "directory",
-                    "path": "C:\\users\\adam\\desktop\\img05960602020-jpg.scr"
-                }
-            },
-            "x_com_ibm_ariel": {
-                "devicetype": 12,
-                "qid_name": "Process Create",
-                "qid": 5001828,
-                "category_name": "Create Activity Succeeded",
-                "category_id": 19012,
-                "log_source_id": 1912,
-                "log_source_name": "Sysmon @ 192.168.0.8",
-                "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Jun 26 00:00:00 192.168.0.8 <13>Jun 26 00:00:00 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2020-01-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
-                "magnitude": 2
-            },
-            "first_observed": "2020-06-26T00:00:00.000Z",
-            "last_observed": "2020-06-26T00:00:00.000Z",
-            "number_observed": 1
-        },
-        {
+	"type": "bundle",
+	"id": "bundle--abe952aa-b943-4a9d-98d4-c6c073b4e8dc",
+	"objects": [{
+			"type": "identity",
+			"id": "identity--f165428c-7b6a-4d77-89cc-33e66a10c541",
+			"name": "QRadar",
+			"identity_class": "events"
+		},
+		{
+			"id": "observed-data--439c662d-5ddd-453f-afe4-1d00faf87531",
+			"type": "observed-data",
+			"created_by_ref": "identity--f165428c-7b6a-4d77-89cc-33e66a10c541",
+			"created": "2020-06-26T00:00:00.000Z",
+			"modified": "2020-06-26T00:00:00.000Z",
+			"objects": {
+				"0": {
+					"type": "ipv4-addr",
+					"value": "10.10.100.21",
+					"resolves_to_refs": "2"
+				},
+				"1": {
+					"type": "network-traffic",
+					"src_ref": "0",
+					"src_port": 0,
+					"dst_ref": "3",
+					"dst_port": 0,
+					"protocols": [
+						"reserved"
+					]
+				},
+				"2": {
+					"type": "mac-addr",
+					"value": "00:00:00:00:00:00"
+				},
+				"3": {
+					"type": "ipv4-addr",
+					"value": "10.10.100.21",
+					"resolves_to_refs": "4"
+				},
+				"4": {
+					"type": "mac-addr",
+					"value": "00:00:00:00:00:00"
+				},
+				"5": {
+					"type": "user-account",
+					"user_id": "myhealth-ep21\\adam"
+				},
+				"6": {
+					"type": "artifact",
+					"payload_bin": "PDE4Mj5PY3QgMTQgMTk6NTc6NTkgMTkyLjE2OC4wLjkwIDwxMz5PY3QgMDMgMTQ6NTM6MzUgV2lu\nU2VydmVyIEFnZW50RGV2aWNlPVdpbmRvd3NMb2cJQWdlbnRMb2dGaWxlPU1pY3Jvc29mdC1XaW5k\nb3dzLVN5c21vbi9PcGVyYXRpb25hbAlQbHVnaW5WZXJzaW9uPTcuMi44LjE0NQlTb3VyY2U9TWlj\ncm9zb2Z0LVdpbmRvd3MtU3lzbW9uCUNvbXB1dGVyPVdpblNlcnZlcglPcmlnaW5hdGluZ0NvbXB1\ndGVyPVdpblNlcnZlcglVc2VyPVNZU1RFTQlEb21haW49TlQgQVVUSE9SSVRZCUV2ZW50SUQ9MQlF\ndmVudElEQ29kZT0xCUV2ZW50VHlwZT00CUV2ZW50Q2F0ZWdvcnk9MQlSZWNvcmROdW1iZXI9OTQy\nMTQJVGltZUdlbmVyYXRlZD0xNTcwMTEwODEzCVRpbWVXcml0dGVuPTE1NzAxMTA4MTMJTGV2ZWw9\nSW5mb3JtYXRpb25hbAlLZXl3b3Jkcz0weDgwMDAwMDAwMDAwMDAwMDAJVGFzaz1TeXNtb25UYXNr\nLVNZU01PTl9DUkVBVEVfUFJPQ0VTUwlPcGNvZGU9SW5mbwlNZXNzYWdlPVByb2Nlc3MgQ3JlYXRl\nOiBSdWxlTmFtZTogIFV0Y1RpbWU6IDIwMTktMTAtMDMgMTM6NTM6MzMuNTM4IFByb2Nlc3NHdWlk\nOiB7MUMyRDNGNTQtRkQ1RC01RDk1LTAwMDAtMDAxMEEwMkUwQzAwfSBQcm9jZXNzSWQ6IDc1NyBJ\nbWFnZTogQzpcUHJvZ3JhbSBGaWxlc1xBdGxhc3NpYW5cQ29uZmx1ZW5jZVxjNjQuZXhlIENvbW1h\nbmRMaW5lOiBjNjQuZXhlIGY2NC5kYXRhICI5ODM5RDdGMUEwIC1tIiBDdXJyZW50RGlyZWN0b3J5\nOiBDOlxXaW5kb3dzXCBVc2VyOiBXaW5TZXJ2ZXJcYWRtaW4gTG9nb25HdWlkOiB7MUMyRDNGNTQt\nRjczNS01RDk1LTAwMDAtMDAyMDk0NkQwNDAwfSBMb2dvbklkOiAweDQ2ZDk0IFRlcm1pbmFsU2Vz\nc2lvbklkOiAxIEludGVncml0eUxldmVsOiBIaWdoIEhhc2hlczogU0hBMT01YmY2Yzk4YTUyZTgw\nODI0ZDFhMjM0YmQ1ZTY3M2VkYjc1YzdkZGE5LE1ENT04NDZjZGI5MjE4NDFhYzY3MWM4NjM1MGQ0\nOTRhYmY5YyxTSEEyNTY9ZGM1MmJkZjVlM2Y3MWZiOWFiM2IxNzMwZDQ0NTI4N2QxNmQzYTNjOA=="
+				},
+				"7": {
+					"type": "file",
+					"hashes": {
+						"SHA-1": "72e52b870fb670bc7d3294afb51d4d3756251f2e",
+						"MD5": "e861a858d56a2f38468dc82d9e6197cd",
+						"SHA-256": "94faa76502bb4342ed7cc3207b3158027807a01575436e2b683d4816842ed65d"
+					},
+					"name": "IMG159131.jpg.js.zip",
+					"parent_directory_ref": "9"
+				},
+				"8": {
+					"type": "file",
+					"name": "IMG159131.jpg.js.zip",
+					"binary_ref": "7",
+					"command_line": "",
+					"pid": 757
+				},
+				"9": {
+					"type": "directory",
+					"path": "C:\\users\\adam\\Downloads\\IMG159131.jpg.js.zip"
+				}
+			},
+			"x_com_ibm_ariel": {
+				"devicetype": 12,
+				"qid_name": "File Create",
+				"qid": 5001828,
+				"category_name": "Create Activity Succeeded",
+				"category_id": 19012,
+				"log_source_id": 1912,
+				"log_source_name": "Sysmon @ 192.168.0.8",
+				"identity_ip": "0.0.0.0",
+				"utf8_payload": "<182>Jun 26 00:00:00 192.168.0.8 <13>Jun 26 00:00:00 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2020-01-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
+				"magnitude": 2
+			},
+			"first_observed": "2020-06-26T00:00:00.000Z",
+			"last_observed": "2020-06-26T00:00:00.000Z",
+			"number_observed": 1
+		},
+		{
+			"id": "observed-data--ccefc459-9b51-4358-9704-614e0a99dea9",
+			"type": "observed-data",
+			"created_by_ref": "identity--f165428c-7b6a-4d77-89cc-33e66a10c541",
+			"created": "2020-06-26T00:00:00.000Z",
+			"modified": "2020-06-26T00:00:00.000Z",
+			"objects": {
+				"0": {
+					"type": "ipv4-addr",
+					"value": "10.10.100.21",
+					"resolves_to_refs": "2"
+				},
+				"1": {
+					"type": "network-traffic",
+					"src_ref": "0",
+					"src_port": 0,
+					"dst_ref": "3",
+					"dst_port": 0,
+					"protocols": [
+						"reserved"
+					]
+				},
+				"2": {
+					"type": "mac-addr",
+					"value": "00:00:00:00:00:00"
+				},
+				"3": {
+					"type": "ipv4-addr",
+					"value": "10.10.100.21",
+					"resolves_to_refs": "4"
+				},
+				"4": {
+					"type": "mac-addr",
+					"value": "00:00:00:00:00:00"
+				},
+				"5": {
+					"type": "user-account",
+					"user_id": "myhealth-ep21\\adam"
+				},
+				"6": {
+					"type": "artifact",
+					"payload_bin": "PDE4Mj5PY3QgMTQgMTk6NTc6NTkgMTkyLjE2OC4wLjkwIDwxMz5PY3QgMDEgMTk6Mjk6MTUgV2lu\nU2VydmVyIEFnZW50RGV2aWNlPVdpbmRvd3NMb2cJQWdlbnRMb2dGaWxlPU1pY3Jvc29mdC1XaW5k\nb3dzLVN5c21vbi9PcGVyYXRpb25hbAlQbHVnaW5WZXJzaW9uPTcuMi44LjE0NQlTb3VyY2U9TWlj\ncm9zb2Z0LVdpbmRvd3MtU3lzbW9uCUNvbXB1dGVyPURFU0tUT1AtSlVCNVAzRglPcmlnaW5hdGlu\nZ0NvbXB1dGVyPURFU0tUT1AtSlVCNVAzRglVc2VyPVNZU1RFTQlEb21haW49TlQgQVVUSE9SSVRZ\nCUV2ZW50SUQ9MwlFdmVudElEQ29kZT0zCUV2ZW50VHlwZT00CUV2ZW50Q2F0ZWdvcnk9MwlSZWNv\ncmROdW1iZXI9NjYwODY3MTEJVGltZUdlbmVyYXRlZD0xNTY5OTU0NTU1CVRpbWVXcml0dGVuPTE1\nNjk5NTQ1NTUJTGV2ZWw9SW5mb3JtYXRpb25hbAlLZXl3b3Jkcz0weDgwMDAwMDAwMDAwMDAwMDAJ\nVGFzaz1TeXNtb25UYXNrLVNZU01PTl9ORVRXT1JLX0NPTk5FQ1QJT3Bjb2RlPUluZm8JTWVzc2Fn\nZT1OZXR3b3JrIGNvbm5lY3Rpb24gZGV0ZWN0ZWQ6IFJ1bGVOYW1lOiBVc2VybW9kZSBVdGNUaW1l\nOiAyMDE5LTEwLTAxIDE4OjI5OjE2LjY4OCBQcm9jZXNzR3VpZDogezBhNDZmYzJmLTlhZjMtNWQ5\nMy0wMDAwLTAwMTAyODM4NjQwN30gUHJvY2Vzc0lkOiA3NTcgSW1hZ2U6IEM6XFByb2dyYW0gRmls\nZXNcQXRsYXNzaWFuXENvbmZsdWVuY2VcYzY0LmV4ZSBVc2VyOiBXaW5TZXJ2ZXJcYWRtaW4gUHJv\ndG9jb2w6IHRjcCBJbml0aWF0ZWQ6IHRydWUgU291cmNlSXNJcHY2OiBmYWxzZSBTb3VyY2VJcDog\nMTkyLjE2OC4wLjggU291cmNlSG9zdG5hbWU6IHdpbnNlcnZlciBTb3VyY2VQb3J0OiA1NDc5MiBT\nb3VyY2VQb3J0TmFtZTogIERlc3RpbmF0aW9uSXNJcHY2OiBmYWxzZSBEZXN0aW5hdGlvbklwOiA2\nNy4yMjkuOTcuMjI5IERlc3RpbmF0aW9uSG9zdG5hbWU6ICBEZXN0aW5hdGlvblBvcnQ6IDQ0MyBE\nZXN0aW5hdGlvblBvcnROYW1lOiBodHRwcw0K"
+				},
+				"7": {
+					"type": "process",
+					"name": "winzip.exe",
+					"binary_ref": "8",
+					"pid": 757
+				},
+				"8": {
+					"type": "file",
+					"name": "c64.exe",
+					"hashes": {
+						"UNKNOWN": "File Hash"
+					},
+					"parent_directory_ref": "9"
+				},
+				"9": {
+					"type": "directory",
+					"path": "C:\\Program Files\\winzip\\winzip.exe"
+				}
+			},
+			"x_com_ibm_ariel": {
+				"devicetype": 12,
+				"qid_name": "process create",
+				"qid": 5001840,
+				"category_name": "Create Activity Succeeded",
+				"category_id": 4012,
+				"log_source_id": 1912,
+				"log_source_name": "Sysmon @ 192.168.0.8",
+				"identity_ip": "0.0.0.0",
+				"utf8_payload": "<182>Oct 14 19:57:59 192.168.0.8 <13>Oct 01 19:29:15 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=DESKTOP-JUB5P3F\tOriginatingComputer=DESKTOP-JUB5P3F\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=3\tEventIDCode=3\tEventType=4\tEventCategory=3\tRecordNumber=66086711\tTimeGenerated=1569954555\tTimeWritten=1569954555\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_NETWORK_CONNECT\tOpcode=Info\tMessage=Network connection detected: RuleName: Usermode UtcTime: 2020-01-03 18:29:16.688 ProcessGuid: {0a46fc2f-9af3-5d93-0000-001028386407} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe User: WinServer\\admin Protocol: tcp Initiated: true SourceIsIpv6: false SourceIp: 192.168.0.8 SourceHostname: winserver SourcePort: 54792 SourcePortName:  DestinationIsIpv6: false DestinationIp: 67.229.97.229 DestinationHostname:  DestinationPort: 443 DestinationPortName: https\r\n",
+				"magnitude": 3
+			},
+			"first_observed": "2020-06-26T00:00:00.000Z",
+			"last_observed": "2020-06-26T00:00:00.000Z",
+			"number_observed": 1
+		},
+		{
+			"id": "observed-data--e03a0b0d-8388-4cbb-973d-42a88ed8bd6c",
+			"type": "observed-data",
+			"created_by_ref": "identity--f165428c-7b6a-4d77-89cc-33e66a10c541",
+			"created": "2020-06-26T00:00:00.000Z",
+			"modified": "2020-06-26T00:00:00.000Z",
+			"objects": {
+				"0": {
+					"type": "ipv4-addr",
+					"value": "10.10.100.21",
+					"resolves_to_refs": "2"
+				},
+				"1": {
+					"type": "network-traffic",
+					"src_ref": "0",
+					"src_port": 0,
+					"dst_ref": "3",
+					"dst_port": 0,
+					"protocols": [
+						"reserved"
+					]
+				},
+				"2": {
+					"type": "mac-addr",
+					"value": "00:00:00:00:00:00"
+				},
+				"3": {
+					"type": "ipv4-addr",
+					"value": "10.10.100.21",
+					"resolves_to_refs": "4"
+				},
+				"4": {
+					"type": "mac-addr",
+					"value": "00:00:00:00:00:00"
+				},
+				"5": {
+					"type": "user-account",
+					"user_id": "myhealth-ep21\\adam"
+				},
+				"6": {
+					"type": "artifact",
+					"payload_bin": "PDE4Mj5PY3QgMTQgMTk6NTg6MDAgMTkyLjE2OC4wLjkwIDwxMz5PY3QgMDMgMTQ6NTM6MzUgV2lu\nU2VydmVyIEFnZW50RGV2aWNlPVdpbmRvd3NMb2cJQWdlbnRMb2dGaWxlPU1pY3Jvc29mdC1XaW5k\nb3dzLVN5c21vbi9PcGVyYXRpb25hbAlQbHVnaW5WZXJzaW9uPTcuMi44LjE0NQlTb3VyY2U9TWlj\ncm9zb2Z0LVdpbmRvd3MtU3lzbW9uCUNvbXB1dGVyPVdpblNlcnZlcglPcmlnaW5hdGluZ0NvbXB1\ndGVyPVdpblNlcnZlcglVc2VyPVNZU1RFTQlEb21haW49TlQgQVVUSE9SSVRZCUV2ZW50SUQ9MQlF\ndmVudElEQ29kZT0xCUV2ZW50VHlwZT00CUV2ZW50Q2F0ZWdvcnk9MQlSZWNvcmROdW1iZXI9OTQy\nMTQJVGltZUdlbmVyYXRlZD0xNTcwMTEwODEzCVRpbWVXcml0dGVuPTE1NzAxMTA4MTMJTGV2ZWw9\nSW5mb3JtYXRpb25hbAlLZXl3b3Jkcz0weDgwMDAwMDAwMDAwMDAwMDAJVGFzaz1TeXNtb25UYXNr\nLVNZU01PTl9DUkVBVEVfUFJPQ0VTUwlPcGNvZGU9SW5mbwlNZXNzYWdlPVByb2Nlc3MgQ3JlYXRl\nOiBSdWxlTmFtZTogIFV0Y1RpbWU6IDIwMTktMTAtMDMgMTM6NTM6MzMuNTM4IFByb2Nlc3NHdWlk\nOiB7MUMyRDNGNTQtRkQ1RC01RDk1LTAwMDAtMDAxMEEwMkUwQzAwfSBQcm9jZXNzSWQ6IDc1NyBJ\nbWFnZTogQzpcUHJvZ3JhbSBGaWxlc1xBdGxhc3NpYW5cQ29uZmx1ZW5jZVxjNjQuZXhlIENvbW1h\nbmRMaW5lOiBjNjQuZXhlIGY2NC5kYXRhICI5ODM5RDdGMUEwIC1tIiBDdXJyZW50RGlyZWN0b3J5\nOiBDOlxXaW5kb3dzXCBVc2VyOiBXaW5TZXJ2ZXJcYWRtaW4gTG9nb25HdWlkOiB7MUMyRDNGNTQt\nRjczNS01RDk1LTAwMDAtMDAyMDk0NkQwNDAwfSBMb2dvbklkOiAweDQ2ZDk0IFRlcm1pbmFsU2Vz\nc2lvbklkOiAxIEludGVncml0eUxldmVsOiBIaWdoIEhhc2hlczogU0hBMT01YmY2Yzk4YTUyZTgw\nODI0ZDFhMjM0YmQ1ZTY3M2VkYjc1YzdkZGE5LE1ENT04NDZjZGI5MjE4NDFhYzY3MWM4NjM1MGQ0\nOTRhYmY5YyxTSEEyNTY9ZGM1MmJkZjVlM2Y3MWZiOWFiM2IxNzMwZDQ0NTI4N2QxNmQzYTNjOA=="
+				},
+				"7": {
+					"type": "file",
+					"hashes": {
+						"SHA-1": "591ffe54bac2c50af61737a28749ff8435168182",
+						"MD5": "c9ec0d9ff44f445ce5614cc87398b38d",
+						"SHA-256": "05af0cf40590aef24b28fa04c6b4998b7ab3b7f26e60c507adb84f3d837778f2"
+					},
+					"name": "img05960602020-jpg.scr",
+					"parent_directory_ref": "9"
+				},
+				"8": {
+					"type": "File",
+					"name": "img05960602020-jpg.scr",
+					"binary_ref": "7",
+					"command_line": "",
+					"pid": 757
+				},
+				"9": {
+					"type": "directory",
+					"path": "C:\\users\\adam\\desktop\\img05960602020-jpg.scr"
+				}
+			},
+			"x_com_ibm_ariel": {
+				"devicetype": 12,
+				"qid_name": "File Create",
+				"qid": 5001828,
+				"category_name": "Create Activity Succeeded",
+				"category_id": 19012,
+				"log_source_id": 1912,
+				"log_source_name": "Sysmon @ 192.168.0.8",
+				"identity_ip": "0.0.0.0",
+				"utf8_payload": "<182>Jun 26 00:00:00 192.168.0.8 <13>Jun 26 00:00:00 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2020-01-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
+				"magnitude": 2
+			},
+			"first_observed": "2020-06-26T00:00:00.000Z",
+			"last_observed": "2020-06-26T00:00:00.000Z",
+			"number_observed": 1
+		},
+		{
+			"id": "observed-data--630bf095-f8f7-4431-978e-ab0ab7d1000e",
+			"type": "observed-data",
+			"created_by_ref": "identity--f165428c-7b6a-4d77-89cc-33e66a10c541",
+			"created": "2020-06-26T00:00:00.000Z",
+			"modified": "2020-06-26T00:00:00.000Z",
+			"objects": {
+				"0": {
+					"type": "ipv4-addr",
+					"value": "10.10.100.21",
+					"resolves_to_refs": "2"
+				},
+				"1": {
+					"type": "network-traffic",
+					"src_ref": "0",
+					"src_port": 0,
+					"dst_ref": "3",
+					"dst_port": 0,
+					"protocols": [
+						"reserved"
+					]
+				},
+				"2": {
+					"type": "mac-addr",
+					"value": "00:00:00:00:00:00"
+				},
+				"3": {
+					"type": "ipv4-addr",
+					"value": "10.10.100.21",
+					"resolves_to_refs": "4"
+				},
+				"4": {
+					"type": "mac-addr",
+					"value": "00:00:00:00:00:00"
+				},
+				"5": {
+					"type": "user-account",
+					"user_id": "myhealth-ep21\\adam"
+				},
+				"6": {
+					"type": "artifact",
+					"payload_bin": "PDE4Mj5PY3QgMTQgMTk6NTg6MDAgMTkyLjE2OC4wLjkwIDwxMz5PY3QgMDMgMTQ6NTM6MzUgV2lu\nU2VydmVyIEFnZW50RGV2aWNlPVdpbmRvd3NMb2cJQWdlbnRMb2dGaWxlPU1pY3Jvc29mdC1XaW5k\nb3dzLVN5c21vbi9PcGVyYXRpb25hbAlQbHVnaW5WZXJzaW9uPTcuMi44LjE0NQlTb3VyY2U9TWlj\ncm9zb2Z0LVdpbmRvd3MtU3lzbW9uCUNvbXB1dGVyPVdpblNlcnZlcglPcmlnaW5hdGluZ0NvbXB1\ndGVyPVdpblNlcnZlcglVc2VyPVNZU1RFTQlEb21haW49TlQgQVVUSE9SSVRZCUV2ZW50SUQ9MQlF\ndmVudElEQ29kZT0xCUV2ZW50VHlwZT00CUV2ZW50Q2F0ZWdvcnk9MQlSZWNvcmROdW1iZXI9OTQy\nMTQJVGltZUdlbmVyYXRlZD0xNTcwMTEwODEzCVRpbWVXcml0dGVuPTE1NzAxMTA4MTMJTGV2ZWw9\nSW5mb3JtYXRpb25hbAlLZXl3b3Jkcz0weDgwMDAwMDAwMDAwMDAwMDAJVGFzaz1TeXNtb25UYXNr\nLVNZU01PTl9DUkVBVEVfUFJPQ0VTUwlPcGNvZGU9SW5mbwlNZXNzYWdlPVByb2Nlc3MgQ3JlYXRl\nOiBSdWxlTmFtZTogIFV0Y1RpbWU6IDIwMTktMTAtMDMgMTM6NTM6MzMuNTM4IFByb2Nlc3NHdWlk\nOiB7MUMyRDNGNTQtRkQ1RC01RDk1LTAwMDAtMDAxMEEwMkUwQzAwfSBQcm9jZXNzSWQ6IDc1NyBJ\nbWFnZTogQzpcUHJvZ3JhbSBGaWxlc1xBdGxhc3NpYW5cQ29uZmx1ZW5jZVxjNjQuZXhlIENvbW1h\nbmRMaW5lOiBjNjQuZXhlIGY2NC5kYXRhICI5ODM5RDdGMUEwIC1tIiBDdXJyZW50RGlyZWN0b3J5\nOiBDOlxXaW5kb3dzXCBVc2VyOiBXaW5TZXJ2ZXJcYWRtaW4gTG9nb25HdWlkOiB7MUMyRDNGNTQt\nRjczNS01RDk1LTAwMDAtMDAyMDk0NkQwNDAwfSBMb2dvbklkOiAweDQ2ZDk0IFRlcm1pbmFsU2Vz\nc2lvbklkOiAxIEludGVncml0eUxldmVsOiBIaWdoIEhhc2hlczogU0hBMT01YmY2Yzk4YTUyZTgw\nODI0ZDFhMjM0YmQ1ZTY3M2VkYjc1YzdkZGE5LE1ENT04NDZjZGI5MjE4NDFhYzY3MWM4NjM1MGQ0\nOTRhYmY5YyxTSEEyNTY9ZGM1MmJkZjVlM2Y3MWZiOWFiM2IxNzMwZDQ0NTI4N2QxNmQzYTNjOA=="
+				},
+				"7": {
+					"type": "file",
+					"hashes": {
+						"SHA-1": "591ffe54bac2c50af61737a28749ff8435168182",
+						"MD5": "c9ec0d9ff44f445ce5614cc87398b38d",
+						"SHA-256": "05af0cf40590aef24b28fa04c6b4998b7ab3b7f26e60c507adb84f3d837778f2"
+					},
+					"name": "img05960602020-jpg.scr",
+					"parent_directory_ref": "9"
+				},
+				"8": {
+					"type": "process",
+					"name": "img05960602020-jpg.scr",
+					"binary_ref": "7",
+					"command_line": "img05960602020-jpg.scr f64.data \"9839D7F1A0 -m\"",
+					"pid": 757
+				},
+				"9": {
+					"type": "directory",
+					"path": "C:\\users\\adam\\desktop\\img05960602020-jpg.scr"
+				}
+			},
+			"x_com_ibm_ariel": {
+				"devicetype": 12,
+				"qid_name": "Process Create",
+				"qid": 5001828,
+				"category_name": "Create Activity Succeeded",
+				"category_id": 19012,
+				"log_source_id": 1912,
+				"log_source_name": "Sysmon @ 192.168.0.8",
+				"identity_ip": "0.0.0.0",
+				"utf8_payload": "<182>Jun 26 00:00:00 192.168.0.8 <13>Jun 26 00:00:00 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2020-01-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
+				"magnitude": 2
+			},
+			"first_observed": "2020-06-26T00:00:00.000Z",
+			"last_observed": "2020-06-26T00:00:00.000Z",
+			"number_observed": 1
+		},
+		{
 			"_id": "9511230d0597fe0a6d8c953f6138d00c",
 			"_rev": "1-b16d3705dbe64c98f4533d69df59043e",
 			"id": "observed-data--d039f952-4984-49ad-ba77-ebba52c7c368",
@@ -349,7 +348,7 @@
 					"dst_packets": 0,
 					"dst_port": 25,
 					"protocols": [
-							"tcp"
+						"tcp"
 					],
 					"src_byte_count": 0,
 					"src_ref": "3",
@@ -365,23 +364,23 @@
 					"value": "10.10.100.10"
 				},
 				"4": {
-                    "type": "file",
-                    "hashes": {
-                        "SHA-1": "72e52b870fb670bc7d3294afb51d4d3756251f2e",
-                        "MD5": "e861a858d56a2f38468dc82d9e6197cd",
-                        "SHA-256": "94faa76502bb4342ed7cc3207b3158027807a01575436e2b683d4816842ed65d"
-                    },
-                    "name": "IMG159131.jpg.js.zip"
-                },
+					"type": "file",
+					"hashes": {
+						"SHA-1": "72e52b870fb670bc7d3294afb51d4d3756251f2e",
+						"MD5": "e861a858d56a2f38468dc82d9e6197cd",
+						"SHA-256": "94faa76502bb4342ed7cc3207b3158027807a01575436e2b683d4816842ed65d"
+					},
+					"name": "IMG159131.jpg.js.zip"
+				},
 				"5": {
-                    "type": "file",
-                    "name": "IMG159131.jpg.js.zip",
-                    "binary_ref": "4"
-                },
+					"type": "file",
+					"name": "IMG159131.jpg.js.zip",
+					"binary_ref": "4"
+				},
 				"6": {
-                    "type": "subject",
-                    "name": "Do you like my photo?"
-                },
+					"type": "subject",
+					"name": "Do you like my photo?"
+				}
 			},
 			"x_com_ibm_ariel": {
 				"application_id": "1004",
@@ -391,14 +390,14 @@
 				"first_packet_time": "1544805722050",
 				"direction": "L2L",
 				"flow_interface_id": [
-				"55"
+					"55"
 				],
 				"flow_source": [
-				"qradar732"
+					"qradar732"
 				],
 				"geographic": "other",
 				"flow_interface": [
-				"qradar732:default_Netflow_169_254_3_6"
+					"qradar732:default_Netflow_169_254_3_6"
 				],
 				"last_packet_time": "1544805722051",
 				"event_name": "Mail.SMTP",
@@ -410,5 +409,5 @@
 			"last_observed": "2020-06-26T00:00:00.000Z",
 			"number_observed": 1
 		}
-    ]
+	]
 }
