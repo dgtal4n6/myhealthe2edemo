@@ -1,0 +1,73 @@
+{
+    "type": "bundle",
+    "id": "bundle--abe952aa-b943-4a9d-98d4-c6c073b4e8dc",
+    "objects": [
+        {
+            "type": "identity",
+            "id": "identity--f165428c-7b6a-4d77-89cc-33e66a10c541",
+            "name": "QRadar",
+            "identity_class": "events"
+        },            
+            {
+            "id": "observed-data--81afa14f-5463-4251-83ba-4aac261a5ea1",
+            "type": "observed-data",
+            "created_by_ref": "identity--f165428c-7b6a-4d77-89cc-33e66a10c541",
+            "created": "2020-01-20T17:19:32.138Z",
+            "modified": "2020-01-20T17:19:32.138Z",
+            "objects": {
+                "0": {
+                    "type": "ipv4-addr",
+                    "value": "10.10.100.24",
+                    "resolves_to_refs": "2"
+                },
+                "1": {
+                    "type": "network-traffic",
+                    "src_ref": "0",
+                    "src_port": 0,
+                    "dst_ref": "3",
+                    "dst_port": 0,
+                    "protocols": [
+                        "reserved"
+                    ]
+                },
+                "2": {
+                    "type": "mac-addr",
+                    "value": "00:00:00:00:00:00"
+                },
+                "3": {
+                    "type": "ipv4-addr",
+                    "value": "67.229.97.229",
+                    "resolves_to_refs": "4"
+                },
+                "4": {
+                    "type": "mac-addr",
+                    "value": "00:00:00:00:00:00"
+                },
+                "5": {
+                    "type": "user-account",
+                    "user_id": "DannyJacob"
+                },
+                "6": {
+                    "type": "file",
+                    "name": "img05960602020-jpg.scr"
+                },
+                "9": {
+                    "type": "domain",
+                    "path": "s3.amazonaws.com"
+                },
+                "10": {
+                    "type": "artifact",
+                    "payload_bin": ""
+                }
+            },
+            "x_com_ibm_ariel": {
+                "qid_name": "Object created",
+                "category_name": "AWS CloudTrail Message",
+                "log_source_name": "AWS CloudTrail myhealth UK"
+            },
+            "first_observed": "2020-06-26T00:00:00.000Z",
+            "last_observed": "2020-06-26T00:00:00.000Z",
+            "number_observed": 1
+        }
+    ]
+}

@@ -1,0 +1,608 @@
+{
+    "id": "bundle--a625c45a-c49c-488c-a9c0-8ff9529ae1ad",
+    "objects": [
+        {
+            "created": "2020-06-26T00:00:00.000Z",
+            "id": "identity--8899d562-2667-4532-8e19-b4eca6c959bd",
+            "identity_class": "system",
+            "modified": "2020-06-26T00:00:00.000Z",
+            "name": "carbonblack",
+            "type": "identity"
+        },
+        {
+            "created": "2020-06-26T00:00:00.000Z",
+            "created_by_ref": "identity--8899d562-2667-4532-8e19-b4eca6c959bd",
+            "first_observed": "2020-06-26T00:00:00.000Z",
+            "id": "observed-data--626a6ca7-1145-4a66-b695-e1fe8090c319",
+            "last_observed": "2020-06-26T00:00:00.000Z",
+            "modified": "2020-06-26T00:00:00.000Z",
+            "number_observed": 1,
+            "objects": {
+                "0": {
+                    "hashes": {
+                        "MD5": "b089aa9533dc6250558ebb6e96b0c26b"
+                    },
+                    "name": "IMG159131.jpg.js.zip",
+                    "type": "file"
+                },
+                "1": {
+                    "binary_ref": "0",
+                    "command_line": "",
+                    "created": "2020-06-26T00:00:00.000Z",
+                    "creator_user_ref": "8",
+                    "name": "IMG159131.jpg.js.zip",
+                    "opened_connection_refs": [
+                        "6"
+                    ],
+                    "parent_ref": "3",
+                    "pid": 0,
+                    "type": "file"
+                },
+                "2": {
+                    "hashes": {
+                        "MD5": "e861a858d56a2f38468dc82d9e6197cd"
+                    },
+                    "name": "services.exe",
+                    "type": "file"
+                },
+                "3": {
+                    "binary_ref": "2",
+                    "name": "IMG159131.jpg.js.zip",
+                    "pid": 0,
+                    "type": "file"
+                },
+                "4": {
+                    "type": "domain-name",
+                    "value": "myhealth"
+                },
+                "5": {
+                    "type": "ipv4-addr",
+                    "value": "10.10.100.21"
+                },
+                "6": {
+                    "dst_ref": "5",
+                    "src_ref": "7",
+                    "type": "network-traffic"
+                },
+                "7": {
+                    "type": "ipv4-addr",
+                    "value": "10.10.100.21"
+                },
+                "8": {
+                    "type": "user-account",
+                    "user_id": "adam"
+                }
+            },
+            "type": "observed-data"
+        },
+        {
+            "created": "2020-06-26T00:00:00.000Z",
+            "created_by_ref": "identity--8899d562-2667-4532-8e19-b4eca6c959bd",
+            "first_observed": "2020-06-26T00:00:00.000Z",
+            "id": "observed-data--e4f1d90e-0f50-4b60-ba20-89ac3a3e9f58",
+            "last_observed": "2020-06-26T00:00:00.000Z",
+            "modified": "2020-06-26T00:00:00.000Z",
+            "number_observed": 1,
+            "objects": {
+                "0": {
+                    "hashes": {
+                        "MD5": "c9ec0d9ff44f445ce5614cc87398b38d"
+                    },
+                    "name": "img05960602020-jpg.scr",
+                    "type": "file"
+                },
+                "1": {
+                    "binary_ref": "0",
+                    "command_line": "",
+                    "created": "2020-06-26T00:00:00.000Z",
+                    "creator_user_ref": "8",
+                    "name": "img05960602020-jpg.scr",
+                    "opened_connection_refs": [
+                        "6"
+                    ],
+                    "parent_ref": "3",
+                    "pid": 0,
+                    "type": "file"
+                },
+                "2": {
+                    "hashes": {
+                        "MD5": "c9ec0d9ff44f445ce5614cc87398b38d"
+                    },
+                    "name": "img05960602020-jpg.scr",
+                    "type": "file"
+                },
+                "3": {
+                    "binary_ref": "2",
+                    "name": "img05960602020-jpg.scr",
+                    "pid": 0,
+                    "type": "file"
+                },
+                "4": {
+                    "type": "domain-name",
+                    "value": "myhealth"
+                },
+                "5": {
+                    "type": "ipv4-addr",
+                    "value": "10.10.100.21"
+                },
+                "6": {
+                    "dst_ref": "5",
+                    "src_ref": "7",
+                    "type": "network-traffic"
+                },
+                "7": {
+                    "type": "ipv4-addr",
+                    "value": "10.10.100.21"
+                },
+                "8": {
+                    "type": "user-account",
+                    "user_id": "adam"
+                }
+            },
+            "type": "observed-data"
+        },
+		{
+            "created": "2020-06-26T00:00:00.000Z",
+            "created_by_ref": "identity--8899d562-2667-4532-8e19-b4eca6c959bd",
+            "first_observed": "2020-06-26T00:00:00.000Z",
+            "id": "observed-data--e4f1d90e-0f50-4b60-ba20-89ac3a3e9f58",
+            "last_observed": "2020-06-26T00:00:00.000Z",
+            "modified": "2020-06-26T00:00:00.000Z",
+            "number_observed": 1,
+            "objects": {
+                "0": {
+                    "hashes": {
+                        "MD5": "c9ec0d9ff44f445ce5614cc87398b38d"
+                    },
+                    "name": "img05960602020-jpg.scr",
+                    "type": "file"
+                },
+                "1": {
+                    "binary_ref": "0",
+                    "command_line": "",
+                    "created": "2020-06-26T00:00:00.000Z",
+                    "creator_user_ref": "8",
+                    "name": "img05960602020-jpg.scr",
+                    "opened_connection_refs": [
+                        "6"
+                    ],
+                    "parent_ref": "3",
+                    "pid": 0,
+                    "type": "file"
+                },
+                "2": {
+                    "hashes": {
+                        "MD5": "c9ec0d9ff44f445ce5614cc87398b38d"
+                    },
+                    "name": "img05960602020-jpg.scr",
+                    "type": "file"
+                },
+                "3": {
+                    "binary_ref": "2",
+                    "name": "img05960602020-jpg.scr",
+                    "pid": 0,
+                    "type": "file"
+                },
+                "4": {
+                    "type": "domain-name",
+                    "value": "myhealth"
+                },
+                "5": {
+                    "type": "ipv4-addr",
+                    "value": "10.10.100.22"
+                },
+                "6": {
+                    "dst_ref": "5",
+                    "src_ref": "7",
+                    "type": "network-traffic"
+                },
+                "7": {
+                    "type": "ipv4-addr",
+                    "value": "10.10.100.22"
+                },
+                "8": {
+                    "type": "user-account",
+                    "user_id": "bob"
+                }
+            },
+            "type": "observed-data"
+        },
+		{
+            "created": "2020-06-26T00:00:00.000Z",
+            "created_by_ref": "identity--8899d562-2667-4532-8e19-b4eca6c959bd",
+            "first_observed": "2020-06-26T00:00:00.000Z",
+            "id": "observed-data--e4f1d90e-0f50-4b60-ba20-89ac3a3e9f58",
+            "last_observed": "2020-06-26T00:00:00.000Z",
+            "modified": "2020-06-26T00:00:00.000Z",
+            "number_observed": 1,
+            "objects": {
+                "0": {
+                    "hashes": {
+                        "MD5": "c9ec0d9ff44f445ce5614cc87398b38d"
+                    },
+                    "name": "img05960602020-jpg.scr",
+                    "type": "file"
+                },
+                "1": {
+                    "binary_ref": "0",
+                    "command_line": "",
+                    "created": "2020-06-26T00:00:00.000Z",
+                    "creator_user_ref": "8",
+                    "name": "img05960602020-jpg.scr",
+                    "opened_connection_refs": [
+                        "6"
+                    ],
+                    "parent_ref": "3",
+                    "pid": 0,
+                    "type": "file"
+                },
+                "2": {
+                    "hashes": {
+                        "MD5": "c9ec0d9ff44f445ce5614cc87398b38d"
+                    },
+                    "name": "img05960602020-jpg.scr",
+                    "type": "file"
+                },
+                "3": {
+                    "binary_ref": "2",
+                    "name": "img05960602020-jpg.scr",
+                    "pid": 0,
+                    "type": "file"
+                },
+                "4": {
+                    "type": "domain-name",
+                    "value": "myhealth"
+                },
+                "5": {
+                    "type": "ipv4-addr",
+                    "value": "10.10.100.23"
+                },
+                "6": {
+                    "dst_ref": "5",
+                    "src_ref": "7",
+                    "type": "network-traffic"
+                },
+                "7": {
+                    "type": "ipv4-addr",
+                    "value": "10.10.100.23"
+                },
+                "8": {
+                    "type": "user-account",
+                    "user_id": "charlie"
+                }
+            },
+            "type": "observed-data"
+        },
+        {
+            "created": "2020-06-26T00:00:00.000Z",
+            "created_by_ref": "identity--8899d562-2667-4532-8e19-b4eca6c959bd",
+            "first_observed": "2020-06-26T00:00:00.000Z",
+            "id": "observed-data--e4f1d90e-0f50-4b60-ba20-89ac3a3e9f58",
+            "last_observed": "2020-06-26T00:00:00.000Z",
+            "modified": "2020-06-26T00:00:00.000Z",
+            "number_observed": 1,
+            "objects": {
+                "0": {
+                    "hashes": {
+                        "MD5": "c9ec0d9ff44f445ce5614cc87398b38d"
+                    },
+                    "name": "img05960602020-jpg.scr",
+                    "type": "file"
+                },
+                "1": {
+                    "binary_ref": "0",
+                    "command_line": "",
+                    "created": "2020-06-26T00:00:00.000Z",
+                    "creator_user_ref": "8",
+                    "name": "img05960602020-jpg.scr",
+                    "opened_connection_refs": [
+                        "6"
+                    ],
+                    "parent_ref": "3",
+                    "pid": 0,
+                    "type": "file"
+                },
+                "2": {
+                    "hashes": {
+                        "MD5": "c9ec0d9ff44f445ce5614cc87398b38d"
+                    },
+                    "name": "img05960602020-jpg.scr",
+                    "type": "file"
+                },
+                "3": {
+                    "binary_ref": "2",
+                    "name": "img05960602020-jpg.scr",
+                    "pid": 0,
+                    "type": "file"
+                },
+                "4": {
+                    "type": "domain-name",
+                    "value": "myhealth"
+                },
+                "5": {
+                    "type": "ipv4-addr",
+                    "value": "10.10.100.24"
+                },
+                "6": {
+                    "dst_ref": "5",
+                    "src_ref": "7",
+                    "type": "network-traffic"
+                },
+                "7": {
+                    "type": "ipv4-addr",
+                    "value": "10.10.100.24"
+                },
+                "8": {
+                    "type": "user-account",
+                    "user_id": "danny"
+                }
+            },
+            "type": "observed-data"
+        },
+        {
+            "created": "2020-06-26T00:00:00.000Z",
+            "created_by_ref": "identity--8899d562-2667-4532-8e19-b4eca6c959bd",
+            "first_observed": "2020-06-26T00:00:00.000Z",
+            "id": "observed-data--9e1a8ec9-21e1-43a0-acc8-6e69eced2d21",
+            "last_observed": "2020-06-26T00:00:00.000Z",
+            "modified": "2020-06-26T00:00:00.000Z",
+            "number_observed": 1,
+            "objects": {
+                "0": {
+                    "hashes": {
+                        "MD5": "8a0a29438052faed8a2532da50455756"
+                    },
+                    "name": "TransferMgr.exe",
+                    "type": "file"
+                },
+                "1": {
+                    "binary_ref": "0",
+                    "command_line": "C:\\ProgramFiles\\microsoft\\TransferMgr.exe source -B C:\\Users\\desktop\\adam\\img05960602020-jpg.scr destination \\10.10.100.30\\Team_Share",
+                    "created": "2020-06-26T00:00:00.000Z",
+                    "creator_user_ref": "8",
+                    "name": "TransferMgr.exe",
+                    "opened_connection_refs": [
+                        "6"
+                    ],
+                    "parent_ref": "3",
+                    "pid": 7673,
+                    "type": "process"
+                },
+                "2": {
+                    "hashes": {
+                        "MD5": "00000000000000000000000000000000"
+                    },
+                    "name": "TransferMgr.exe",
+                    "type": "file"
+                },
+                "3": {
+                    "binary_ref": "2",
+                    "name": "TransferMgr.exe",
+                    "pid": 565,
+                    "type": "process"
+                },
+                "4": {
+                    "type": "domain-name",
+                    "value": "myhealth"
+                },
+                "5": {
+                    "type": "ipv4-addr",
+                    "value": "10.10.100.22"
+                },
+                "6": {
+                    "dst_ref": "5",
+                    "src_ref": "7",
+                    "type": "network-traffic"
+                },
+                "7": {
+                    "type": "ipv4-addr",
+                    "value": "10.10.100.30"
+                },
+                "8": {
+                    "type": "user-account",
+                    "user_id": "adam"
+                }
+            },
+            "type": "observed-data"
+        },
+		{
+            "created": "2020-06-26T00:00:00.000Z",
+            "created_by_ref": "identity--8899d562-2667-4532-8e19-b4eca6c959bd",
+            "first_observed": "2020-06-26T00:00:00.000Z",
+            "id": "observed-data--9e1a8ec9-21e1-43a0-acc8-6e69eced2d21",
+            "last_observed": "2020-06-26T00:00:00.000Z",
+            "modified": "2020-06-26T00:00:00.000Z",
+            "number_observed": 1,
+            "objects": {
+                "0": {
+                    "hashes": {
+                        "MD5": "8a0a29438052faed8a2532da50455756"
+                    },
+                    "name": "TransferMgr.exe",
+                    "type": "file"
+                },
+                "1": {
+                    "binary_ref": "0",
+                    "command_line": "C:\\ProgramFiles\\microsoft\\TransferMgr.exe source -B \\10.10.100.30\\Team_Share\\img05960602020-jpg.scr destination C:\\users\\charlie\\Personal\\wallpaper",
+                    "created": "2020-06-26T00:00:00.000Z",
+                    "creator_user_ref": "8",
+                    "name": "TransferMgr.exe",
+                    "opened_connection_refs": [
+                        "6"
+                    ],
+                    "parent_ref": "3",
+                    "pid": 7675,
+                    "type": "process"
+                },
+                "2": {
+                    "hashes": {
+                        "MD5": "00000000000000000000000000000000"
+                    },
+                    "name": "TransferMgr.exe",
+                    "type": "file"
+                },
+                "3": {
+                    "binary_ref": "2",
+                    "name": "TransferMgr.exe",
+                    "pid": 565,
+                    "type": "process"
+                },
+                "4": {
+                    "type": "domain-name",
+                    "value": "myhealth"
+                },
+                "5": {
+                    "type": "ipv4-addr",
+                    "value": "10.10.100.30"
+                },
+                "6": {
+                    "dst_ref": "5",
+                    "src_ref": "7",
+                    "type": "network-traffic"
+                },
+                "7": {
+                    "type": "ipv4-addr",
+                    "value": "10.10.100.23"
+                },
+                "8": {
+                    "type": "user-account",
+                    "user_id": "charlie"
+                }
+            },
+            "type": "observed-data"
+        },
+		{
+            "created": "2020-06-26T00:00:00.000Z",
+            "created_by_ref": "identity--8899d562-2667-4532-8e19-b4eca6c959bd",
+            "first_observed": "2020-06-26T00:00:00.000Z",
+            "id": "observed-data--9e1a8ec9-21e1-43a0-acc8-6e69eced2d21",
+            "last_observed": "2020-06-26T00:00:00.000Z",
+            "modified": "2020-06-26T00:00:00.000Z",
+            "number_observed": 1,
+            "objects": {
+                "0": {
+                    "hashes": {
+                        "MD5": "8a0a29438052faed8a2532da50455756"
+                    },
+                    "name": "TransferMgr.exe",
+                    "type": "file"
+                },
+                "1": {
+                    "binary_ref": "0",
+                    "command_line": "C:\\ProgramFiles\\microsoft\\TransferMgr.exe source -B 10.10.100.23\\img05960602020-jpg.scr destination C:\\users\\danny\\desktop",
+                    "created": "2020-06-26T00:00:00.000Z",
+                    "creator_user_ref": "8",
+                    "name": "TransferMgr.exe",
+                    "opened_connection_refs": [
+                        "6"
+                    ],
+                    "parent_ref": "3",
+                    "pid": 6765,
+                    "type": "process"
+                },
+                "2": {
+                    "hashes": {
+                        "MD5": "00000000000000000000000000000000"
+                    },
+                    "name": "TransferMgr.exe",
+                    "type": "file"
+                },
+                "3": {
+                    "binary_ref": "2",
+                    "name": "TransferMgr.exe",
+                    "pid": 665,
+                    "type": "process"
+                },
+                "4": {
+                    "type": "domain-name",
+                    "value": "myhealth"
+                },
+                "5": {
+                    "type": "ipv4-addr",
+                    "value": "10.10.100.23"
+                },
+                "6": {
+                    "dst_ref": "5",
+                    "src_ref": "7",
+                    "type": "network-traffic"
+                },
+                "7": {
+                    "type": "ipv4-addr",
+                    "value": "10.10.100.24"
+                },
+                "8": {
+                    "type": "user-account",
+                    "user_id": "danny"
+                }
+            },
+            "type": "observed-data"
+        },		
+		{
+            "created": "2020-06-26T00:00:00.000Z",
+            "created_by_ref": "identity--8899d562-2667-4532-8e19-b4eca6c959bd",
+            "first_observed": "2020-06-26T00:00:00.000Z",
+            "id": "observed-data--9e1a8ec9-21e1-43a0-acc8-6e69eced2d21",
+            "last_observed": "2020-06-26T00:00:00.000Z",
+            "modified": "2020-06-26T00:00:00.000Z",
+            "number_observed": 1,
+            "objects": {
+                "0": {
+                    "hashes": {
+                        "MD5": "8a0a29438052faed8a2532da50455756"
+                    },
+                    "name": "TransferMgr.exe",
+                    "type": "file"
+                },
+                "1": {
+                    "binary_ref": "0",
+                    "command_line": "C:\\ProgramFiles\\microsoft\\TransferMgr.exe source -B \\10.10.100.30\\Team_Share\img05960602020-jpg.scr destination C:\\users\\bob\\desktop\\Project",
+                    "created": "2020-06-26T00:00:00.000Z",
+                    "creator_user_ref": "8",
+                    "name": "TransferMgr.exe",
+                    "opened_connection_refs": [
+                        "6"
+                    ],
+                    "parent_ref": "3",
+                    "pid": 7672,
+                    "type": "process"
+                },
+                "2": {
+                    "hashes": {
+                        "MD5": "00000000000000000000000000000000"
+                    },
+                    "name": "TransferMgr.exe",
+                    "type": "file"
+                },
+                "3": {
+                    "binary_ref": "2",
+                    "name": "TransferMgr.exe",
+                    "pid": 564,
+                    "type": "process"
+                },
+                "4": {
+                    "type": "domain-name",
+                    "value": "myhealth"
+                },
+                "5": {
+                    "type": "ipv4-addr",
+                    "value": "10.10.100.30"
+                },
+                "6": {
+                    "dst_ref": "5",
+                    "src_ref": "7",
+                    "type": "network-traffic"
+                },
+                "7": {
+                    "type": "ipv4-addr",
+                    "value": "10.10.100.22"
+                },
+                "8": {
+                    "type": "user-account",
+                    "user_id": "bob"
+                }
+            },
+            "type": "observed-data"
+        },
+    ],
+    "type": "bundle"
+}
