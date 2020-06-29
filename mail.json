@@ -1,0 +1,92 @@
+{
+	"type": "bundle",
+	"id": "bundle--abe952aa-b943-4a9d-98d4-c6c073b4e8dc",
+	"objects": [{
+			"type": "identity",
+			"id": "identity--f165428c-7b6a-4d77-89cc-33e66a10c541",
+			"name": "QRadar",
+			"identity_class": "events"
+		},
+		{
+			"_id": "9511230d0597fe0a6d8c953f6138d00c",
+			"_rev": "1-b16d3705dbe64c98f4533d69df59043e",
+			"id": "observed-data--d039f952-4984-49ad-ba77-ebba52c7c368",
+			"type": "observed-data",
+			"created_by_ref": "identity--daacca8f-ae98-4d03-a94c-2a223243d937",
+			"created": "2020-06-26T00:00:00.000Z",
+			"modified": "2020-06-26T00:00:00.000Z",
+			"objects": {
+				"0": {
+					"type": "software",
+					"name": "Mail.SMTP"
+				},
+				"1": {
+					"type": "network-traffic",
+					"dst_byte_count": 0,
+					"dst_ref": "2",
+					"dst_packets": 0,
+					"dst_port": 25,
+					"protocols": [
+						"tcp"
+					],
+					"src_byte_count": 0,
+					"src_ref": "3",
+					"src_packets": 0,
+					"src_port": 12333
+				},
+				"2": {
+					"type": "ipv4-addr",
+					"value": "10.10.100.21"
+				},
+				"3": {
+					"type": "ipv4-addr",
+					"value": "10.10.100.10"
+				},
+				"4": {
+					"type": "file",
+					"hashes": {
+						"SHA-1": "72e52b870fb670bc7d3294afb51d4d3756251f2e",
+						"MD5": "e861a858d56a2f38468dc82d9e6197cd",
+						"SHA-256": "94faa76502bb4342ed7cc3207b3158027807a01575436e2b683d4816842ed65d"
+					},
+					"name": "IMG159131.jpg.js.zip"
+				},
+				"5": {
+					"type": "file",
+					"name": "IMG159131.jpg.js.zip",
+					"binary_ref": "4"
+				},
+				"6": {
+					"type": "subject",
+					"name": "Do you like my photo?"
+				}
+			},
+			"x_com_ibm_ariel": {
+				"application_id": "1004",
+				"category_name": "Mail",
+				"credibility": 10,
+				"domain_id": 0,
+				"first_packet_time": "1544805722050",
+				"direction": "L2L",
+				"flow_interface_id": [
+					"55"
+				],
+				"flow_source": [
+					"qradar732"
+				],
+				"geographic": "other",
+				"flow_interface": [
+					"qradar732:default_Netflow_169_254_3_6"
+				],
+				"last_packet_time": "1544805722051",
+				"event_name": "Mail.SMTP",
+				"qid": 53250006,
+				"relevance": 10,
+				"severity": 1
+			},
+			"first_observed": "2020-06-26T00:00:00.000Z",
+			"last_observed": "2020-06-26T00:00:00.000Z",
+			"number_observed": 1
+		}
+	]
+}
