@@ -356,7 +356,7 @@
 				},
 				"1": {
 					"binary_ref": "0",
-					"command_line": "C:\\ProgramFiles\\microsoft\\TransferMgr.exe source -B C:\\Users\\desktop\\adam\\img05960602020-jpg.scr destination \\10.10.100.30\\Team_Share",
+					"command_line": "C:\\ProgramFiles\\microsoft\\TransferMgr.exe source -B C:\\Users\\desktop\\adam\\img05960602020-jpg.scr destination \\192.168.1.30\\Team_Share",
 					"created": "2020-06-26T00:00:00.000Z",
 					"creator_user_ref": "8",
 					"name": "TransferMgr.exe",
@@ -488,7 +488,7 @@
 				},
 				"1": {
 					"binary_ref": "0",
-					"command_line": "C:\\ProgramFiles\\microsoft\\TransferMgr.exe source -B 10.10.100.23\\img05960602020-jpg.scr destination C:\\users\\danny\\desktop",
+					"command_line": "C:\\ProgramFiles\\microsoft\\TransferMgr.exe source -B 192.168.1.23\\img05960602020-jpg.scr destination C:\\users\\danny\\desktop",
 					"created": "2020-06-26T00:00:00.000Z",
 					"creator_user_ref": "8",
 					"name": "TransferMgr.exe",
@@ -554,7 +554,7 @@
 				},
 				"1": {
 					"binary_ref": "0",
-					"command_line": "C:\\ProgramFiles\\microsoft\\TransferMgr.exe source -B \\10.10.100.30\\Team_Share\\img05960602020-jpg.scr destination C:\\users\\bob\\desktop\\Project",
+					"command_line": "C:\\ProgramFiles\\microsoft\\TransferMgr.exe source -B \\192.168.1.30\\Team_Share\\img05960602020-jpg.scr destination C:\\users\\bob\\desktop\\Project",
 					"created": "2020-06-26T00:00:00.000Z",
 					"creator_user_ref": "8",
 					"name": "TransferMgr.exe",
