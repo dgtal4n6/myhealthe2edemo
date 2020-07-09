@@ -63,7 +63,7 @@
             "x_com_ibm_ariel": {
                 "qid_name": "Object created",
                 "category_name": "AWS CloudTrail Message",
-                "log_source_name": "AWS CloudTrail myhealth UK"
+                "log_source_name": "AWS CloudTrail soclab UK"
             },
             "first_observed": "2020-06-26T00:00:00.000Z",
             "last_observed": "2020-06-26T00:00:00.000Z",
