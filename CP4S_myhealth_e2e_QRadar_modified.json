@@ -391,7 +391,7 @@
 				"9": {
 					"type": "mail.smtp",
 					"subject": "Do you like my photo?",
-					"from": "hr.events@myhaelth.co.uk"
+					"from": "hr.events@soclabb.co.uk"
 				}
 			},
 			"x_com_ibm_ariel": {
