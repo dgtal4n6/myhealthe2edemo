@@ -17,7 +17,7 @@
             "objects": {
                 "0": {
                     "type": "ipv4-addr",
-                    "value": "10.10.100.24",
+                    "value": "192.168.1.24",
                     "resolves_to_refs": "2"
                 },
                 "1": {
